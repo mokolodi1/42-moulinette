@@ -1,0 +1,161 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e3r13p14.42.fr
+Darwin 13.0.0 x86_64
+
+$> date
+Fri Sep 19 15:39:10 CEST 2014
+
+$> gcc --version
+gcc (GCC) 4.9.0 20131215 (experimental)
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+$> clang --version
+Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+Target: x86_64-apple-darwin13.0.0
+Thread model: posix
+
+= auteur =======================================================================
+Good 'auteur' file
+Grade: 0
+
+= aff_z ========================================================================
+$> gcc -W -Wall -Werror aff_z.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./b63wcodpsqgs4gspfsbuw2tl test1.prm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./vn13gmpdup3gvx0n09a501wr test2.prm
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./y23ucczwxsa0pbfm1uwxqjam test3.prm
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./cv2mltan5cxj7m54g8jm7zqa test4.prm
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= maff_alpha ===================================================================
+$> gcc -W -Wall -Werror maff_alpha.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./wr9me33fkqocu2r40o61xbjc test1.prm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1	2014-09-19 15:39:11.000000000 +0200$
++++ test1.output	2014-09-19 15:39:11.000000000 +0200$
+@@ -1 +1 @@$
+-aBcDeFgHiJkLmNoPqRsTuVwZyZ$
++aBcDeFgHiJkLmNoPqRsTuVwXyZ$
+
+Diff KO :(
+Grade: 0
+
+= hidenp =======================================================================
+$> gcc -W -Wall -Werror hidenp.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./2gykso423cb46pj6o55ryh0v "abc" "a"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1	2014-09-19 15:39:11.000000000 +0200$
++++ test1.output	2014-09-19 15:39:11.000000000 +0200$
+@@ -1 +1 @@$
+-1$
++0$
+
+Diff KO :(
+Grade: 0
+
+= ft_strdup ====================================================================
+$> gcc -W -Wall -Werror ft_strdup.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./ix2yrqjoyoho2h0cgt5oty43
+$> diff -U 3 user_output_test1 test1.output | cat -e
+--- user_output_test1	2014-09-19 15:39:11.000000000 +0200$
++++ test1.output	2014-09-19 15:39:11.000000000 +0200$
+@@ -1,21 +1,11 @@$
+ Alors tu oublierais pas de mettre un \0$
+ Ben la on test en boucle si ca marche$
+-0$
+ Ben la on test en boucle si ca marche$
+-0$
+ Ben la on test en boucle si ca marche$
+-0$
+ Ben la on test en boucle si ca marche$
+-0$
+ Ben la on test en boucle si ca marche$
+-0$
+ Ben la on test en boucle si ca marche$
+-0$
+ Ben la on test en boucle si ca marche$
+-0$
+ Ben la on test en boucle si ca marche$
+-0$
+ Ben la on test en boucle si ca marche$
+-0$
+ Ben la on test en boucle si ca marche$
+-0$
+
+Diff KO :(
+Grade: 0
+
+= ft_list_remove_if ============================================================
+$> gcc -W -Wall -Werror ft_list_remove_if.c test_ft_list_remove_if.c ft_create_elem.c -o user_exe 
+ft_list_remove_if.c:16:1: error: unknown type name 'oid'
+ oid  ft_list_remove_if(t_list **begin_list, void *data_ref, int (*cmp)())
+ ^
+ft_list_remove_if.c: In function 'ft_list_remove_if':
+ft_list_remove_if.c:21:3: error: 'return' with no value, in function returning non-void [-Werror=return-type]
+   return ;
+   ^
+cc1: all warnings being treated as errors
+
+Could not compile 'user_exe'
+Grade: 0
+
+= time_lord ====================================================================
+= Test 1 ===================================================
+$> diff -U 3 secret test1.output | cat -e
+--- secret	2014-09-19 15:39:11.000000000 +0200$
++++ test1.output	2014-09-19 15:39:11.000000000 +0200$
+@@ -1 +1 @@$
+-UY9(-0WI=U&;{_NH/?`@5(,<AHF<($
+\ No newline at end of file$
++XFWQSFQ~T$
+\ No newline at end of file$
+
+Diff KO :(
+KO
+Grade: 0
+
+= death_race ===================================================================
+= Test 1 ===================================================
+Expected file 'secret' missing, test KO
+KO
+Grade: 0
+
+= hl3 ==========================================================================
+$> ./half_life_3 "` cat secret `"
+$> diff -U 3 user_output correct_output | cat -e
+--- user_output	2014-09-19 15:39:11.000000000 +0200$
++++ correct_output	2014-09-19 15:39:11.000000000 +0200$
+@@ -1,2 +1 @@$
+-cat: secret: No such file or directory$
+-Invalid Key...$
++Valid Key Detected...$
+
+Diff KO :(
+Grade: 0
+
+= Final grade : 1 ==============================================================

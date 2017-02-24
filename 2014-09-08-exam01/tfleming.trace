@@ -1,0 +1,175 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e3r5p15.42.fr
+Darwin 13.0.0 x86_64
+
+$> date
+Mon Sep  8 12:26:13 CEST 2014
+
+$> gcc --version
+gcc (GCC) 4.9.0 20131215 (experimental)
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+$> clang --version
+Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+Target: x86_64-apple-darwin13.0.0
+Thread model: posix
+
+= auteur =======================================================================
+Good 'auteur' file
+Grade: 0
+
+= aff_z ========================================================================
+$> gcc -W -Wall -Werror aff_z.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./fo8hy1i9vmiellz0m00z1x4o test1.prm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./np2yey9os76w7ru95xde7n43 test2.prm
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./seibb2izcohthy8qlpcigm8z test3.prm
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./j0kklxz8zgdbbkfrw7nynyvu test4.prm
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= paramsum =====================================================================
+$> gcc -W -Wall -Werror paramsum.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./973lfgrqu4zzc9btwzluygzo 1 4093 2 5430
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./hmbxxoqwn97w1m1lxam7iz5c 
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./grus3bs3auqne1v3754o59qq "c'est sherman et beeone, c'est sherman et" beeone ...
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./iz37lf4fuyqh0ghdwwbtjm8p "un" "deux" "quatre sept"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= hello ========================================================================
+$> gcc -W -Wall -Werror hello.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./inlw72nzhyfhj898l7ckj0qf test1.prm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= rotone =======================================================================
+$> gcc -W -Wall -Werror rotone.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./afzpuxu0xdtmkdd6yjhjjpde "Les stagiaires du staff ne sentent pas toujours tres bon."
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./ir9vydu3sieob410ld2nw902 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor sed odio ac dapibus. Pellentesque congue bibendum mollis. Vivamus accumsan massa diam, id aliquet arcu porta et. Vivamus nec tortor eu leo suscipit dapibus. Pellentesque auctor tortor nunc, in lobortis erat gravida nec. Curabitur hendrerit, tortor et cursus sagittis, enim turpis accumsan odio, blandit pretium lacus eros eget mi. Maecenas et lacus ac arcu tempor lacinia nec et massa. Quisque congue odio nec egestas accumsan. Nullam fermentum id enim id accumsan."
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./yy0exre4j8oyz2jbgq6ppt5n ""
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= hidenp =======================================================================
+$> gcc -W -Wall -Werror hidenp.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./t1p26utt30lvt3qm6r8qz6wy "abc" "a"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./c8f8lgwz5rxu4erabyjazlf0 "" "abc"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./hckdowr0hvg68jaew9iifhzu "abc" ""
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./hfwa9m8xyd9bp8mtk1mu1nxt "abc" "abc"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./leg64mmqeo7285qei7k8jles "abc" "adbc"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./3zb1a8xl1850bs8f0vm3nxeh "abc" "adcb"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./82ivl7kzdg4c3sdivg7aa4t1 "abc" "adcbjgieuwhc"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./fiuru11nheqvqm4jk72e4xb5 "abc" "adbcd"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./sgckw1l55eb1rzhoj6zsxe1y "abc" "abababababababab"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./lmok7ripnbhxtw8fdvv2z70k "zzzzzz" "z"
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./re1xin3dt4qjlr7prccg1rue "zzzzzz" "zzzz"
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+= Test 12 ==================================================
+$> ./bypdxtt9opw5zdlkf6mu5iab "zzzzzz" "azzzzzzzzzzzzz"
+$> diff -U 3 user_output_test12 test12.output | cat -e
+
+Diff OK :D
+Grade: 3
+
+= tar ==========================================================================
+= Test 1 ===================================================
+Expected file 'secret' missing, test KO
+KO
+Grade: 0
+
+= Final grade : 19 =============================================================

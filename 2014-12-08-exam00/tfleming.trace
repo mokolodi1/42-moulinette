@@ -1,0 +1,175 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e1r10p4.42.fr
+Darwin 13.0.0 x86_64
+
+$> date
+Mon Dec  8 11:43:41 CET 2014
+
+$> gcc --version
+gcc (GCC) 4.9.0 20131215 (experimental)
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+$> clang --version
+Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+Target: x86_64-apple-darwin13.0.0
+Thread model: posix
+
+= auteur =======================================================================
+Good 'auteur' file
+Grade: 0
+
+= rotone =======================================================================
+$> gcc -Wextra -Wall -Werror rotone.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./aqxfi0ykf2p40x0b8el5odax "Les stagiaires du staff ne sentent pas toujours tres bon."
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./wg9p4c2kbyzredcmugj2l0jr "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor sed odio ac dapibus. Pellentesque congue bibendum mollis. Vivamus accumsan massa diam, id aliquet arcu porta et. Vivamus nec tortor eu leo suscipit dapibus. Pellentesque auctor tortor nunc, in lobortis erat gravida nec. Curabitur hendrerit, tortor et cursus sagittis, enim turpis accumsan odio, blandit pretium lacus eros eget mi. Maecenas et lacus ac arcu tempor lacinia nec et massa. Quisque congue odio nec egestas accumsan. Nullam fermentum id enim id accumsan."
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./xm99shzfd5m0euqu7lhsyrhx ""
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+Grade: 6
+
+= hidenp =======================================================================
+$> gcc -Wextra -Wall -Werror hidenp.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./e9bqxqansv9yx4ja2rh5r9bz "abc" "a"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./ojzndc08vy9dos5n03k6p3iv "" "abc"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./wtz3zdiwazrwe0gbokid8uuy "abc" ""
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./25ug8e39pc7tbndy4ap7xrqj "abc" "abc"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./xd59x7iqkjp1owanijhp1s49 "abc" "adbc"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./m3qlmow416qsmpl70f1ffo31 "abc" "adcb"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./zccvh27g5d5s1663z0jkxscr "abc" "adcbjgieuwhc"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./12kvk0bjnkanjzrpf0w5w7bo "abc" "adbcd"
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./5rfjav3iqml24xgf75q6tj1d "abc" "abababababababab"
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./6kiclnz5alibapjhgbrsfq3h "zzzzzz" "z"
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./bewyeb9ny0gpv5jygal4xp6z "zzzzzz" "zzzz"
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+= Test 12 ==================================================
+$> ./vrszrsh0yyhtb4xg2gkcnz3l "zzzzzz" "azzzzzzzzzzzzz"
+$> diff -U 3 user_output_test12 test12.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= union ========================================================================
+$> gcc -Wextra -Wall -Werror union.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./4qxbfpammyoggsvnqrgi7znt "bqwuiobqiwrvi-1,-1.-1-38901gbi" "u3bkjnqoq8dbiu1p1po,-8491"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./sxcp4o83i9t0qeoovhwafk9p "" "3u3bkjnqosbhs9q8dbiu1p1po,-8491"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./4z00u0lpkuf0eyekrkxc27wz "" ""
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./8de59g9v4pis5o0mz4c25dve "bqkwjbwqiuqw" ""
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= ord_alphlong =================================================================
+$> gcc -Wextra -Wall -Werror main.c ord_alphlong.c printing.c utils.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./d6414gfugs5c9rk4kgpwiu6x "lorem ipsum dolor sit amet consectetur adipiscing elit curabitur sollicitudin pretium nibh"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./qk2n8x1uga9tut2l1tua9ns9 "kohlrabies aghas tv sued ox retry gardant bulk cornetter putt gruesome whelk centenary decd bite capo in ok lax empaled ox saga um bandboxical ugh cephalomotor becassine boletaceous sees alkanet friarbird a pucker entour beautifiers guenons tod arracacha porus"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./uhdnivasmah74vl09z327igj "a why thrast my pimple pow pew allegiance deer menise euhemeristic sarge or brigatry antialbumid oars gif phthisicky a fore lash champing thule moody a detoxify fem a logs uh sprit tower ha beudanite inlet sat bedebt menses ya consulates beau red pawl chartographically egg mia ghazi mispled damper ped autoput lawless fireplug see boil bargehouse counterplan en off boiserie a bundy frugs sidder fishy ok ack clue selah brim oxygen a footsies tome closh oleraceous dam tug on bauge glood depolariser"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./b1q36k9qbl570jxhxsg4t0nq "garotes foreboder hash arsenicating accolent ow dims twain handsew outasks fratries hill tot a footraces a comanches potheen skim bike one bacterially nest nay my en dub areostyle railly pre fee joys nepit cite ow coadunate um pox conclavist a axon sparta corelational gyms em daemonian creepingly mirdha buy boxings detruncated vex catbird derealization juts stope gonial ear ziff a a ebionite am smug rue chiasm it preter bitripartite conglobing eflagelliferous gematria corrugator obliger koumyses bye uh oopak ye sos anagogics toughy of prexy fads laigh ok a buss dismiss glimmering aquiform push applenut doest a oh sedged mild decoy fally do seal mien indubitate uh pic yale kymnel aortoiliac beniseed a cercus acroesthesia bradyseismical utick creirgist tuts bostonite kiyas candidacies aye neo pow earl til a intakes ox entocnemial"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= g_diam =======================================================================
+$> gcc -Wextra -Wall -Werror  -o user_exe 
+gcc: fatal error: no input files
+compilation terminated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= count_island =================================================================
+Nothing turned in
+Grade: 0
+
+= time_lord ====================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade : 17 =============================================================

@@ -1,0 +1,237 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e1r5p11.42.fr
+Darwin 13.0.0 x86_64
+
+$> date
+Mon Dec 22 11:17:53 CET 2014
+
+$> gcc --version
+gcc (GCC) 4.9.0 20131215 (experimental)
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+$> clang --version
+Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+Target: x86_64-apple-darwin13.0.0
+Thread model: posix
+
+= auteur =======================================================================
+Good 'auteur' file
+Grade: 0
+
+= ulstr ========================================================================
+$> gcc -Wextra -Wall -Werror ulstr.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./thcc5o123vq1da42oo185lll "L'eSPrit nE peUt plUs pRogResSer s'Il staGne et sI peRsIsTent VAnIte et auto-justification."
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./6blnm4mx2gyssyfbl1spqks8 "S'enTOuRer dE sECreT eSt uN sIGnE De mAnQuE De coNNaiSSanCe.  "
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./m8v6aawyz9k72iawggxwzsah "3:21 Ba  tOut  moUn ki Ka di KE m'en Ka fe fot"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./7ifel656rehdnsbrew58c8wa "Pour l'Imperium de l'Humanite"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./eaxkl0hmce8d8yhx7w2fhyn0 "..."
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./2i9x52m2236sxuamnncw1ctk ""
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+Grade: 5
+
+= wdmatch ======================================================================
+$> gcc -Wextra -Wall -Werror wdmatch.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./1ibtokyvh1wsj3o8mg5kcj1h "faya" "fgvvfdxcacpolhyghbreda"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./tfbt3z368hkknwrsj7ugs04m "faya" "fgvvfdxcacpolhyghbred"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./mkcdy29fm20omwger99gmdmx "quarante deux" "qfqfsudf arzgsayns tsregfdgs sjytdekuoixq "
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./skm7ht4hsg7vht0m5wszl0bi "error" "rrerrrfiiljdfxjyuifrrvcoojh"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./fzttytieyx8t512p3z3i8eef "... un dernier pour la route" "... UN DERNIER POUR LA ROUTE"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./m8dfw7i295k2nh8yij7z4d7t "oui" "qowueir"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./eywfj8cf1xtfmccgpqxpy2am ""
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= ft_strdup ====================================================================
+$> gcc -Wextra -Wall -Werror ft_strdup.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./hsyn2y7i87diyjck0nkuh5uv
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 3
+
+= inter ========================================================================
+$> gcc -Wextra -Wall -Werror inter.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./ve9dczgnl7kvwh48y61it87k "padinton" "paqefwtdjetyiytjneytjoeyjnejeyj"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./iafzzesmb33z7cmlpmyfl2hd "ddf6vewg64f" "gtwthgdwthdwfteewhrtag6h4ffdhsd"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./3rawcopy5nonxst4jrbjp48s "rien" "cette phrase ne cache rien"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./w7shifd0828rgeutrxsr3hvv "" ""
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./0ct3ivkotoweqiy7pmnh1tyy "asdfqwerzxxcv123454" "1234gfds6543fghj"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+Grade: 3
+
+= str_maxlenoc =================================================================
+$> gcc -Wextra -Wall -Werror str_maxlenoc.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./8s6kt3ab4ysf3hfxh8b282nr "Bonjour"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./knn0xtgseofltg708dj90nay "bonjouran" "bonjouran" "confiseriean" "bonne annee"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./ny6osv85ml6mpg7jmecl512h "bonjour an" "bonjour an" "confiserie an" "bonne annee"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./brh6ez0uvqli0pqlrp66z30z "voila" "voila" "ouais ben voila"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./ev2wcckjumyxw5gazru7jnto "bosdsdfnjodur" "atehhellosd" "afkuonjosurafg" "headfgllosf" "fghellosag afdfbosnjourafg"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= count_island =================================================================
+$> gcc -Wextra -Wall -Werror count_islands.c main.c parse_map.c print_islands.c utils.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./uov80riwod09mi2xazsl1l6o test1.prm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./f300vlgu4srxu7rxwcnyr8zs test2.prm
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./zfou9hqekbr1sa9ssvl3vevb test3.prm
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./xnakseowc8vdiuuot9l7ktaz test4.prm
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./d7yds76avzojpj1p2gn0m3qr test5.prm
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./zpfdo998oucklrws5k6q3ica test6.prm
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./577yv1j05o8ecruibdhwdyz8 test7.prm
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./dto4v1csq1t9w3t6esnpef3q test8.prm
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+= Test 9 ===================================================
+$> ./l67jey7we8fo9vxzbud3gy7i test9.prm
+$> diff -U 3 user_output_test9 test9.output | cat -e
+
+Diff OK :D
+= Test 10 ==================================================
+$> ./qyk86q2nim7w8trm4ksxqqy5 test10.prm
+$> diff -U 3 user_output_test10 test10.output | cat -e
+
+Diff OK :D
+= Test 11 ==================================================
+$> ./z28e5je36v0kt8h6ezd65hv4 test11.prm
+$> diff -U 3 user_output_test11 test11.output | cat -e
+
+Diff OK :D
+Grade: 2
+
+= g_diam =======================================================================
+Nothing turned in
+Grade: 0
+
+= time_lord ====================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade : 19 =============================================================

@@ -1,0 +1,251 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e3r4p17.42.fr
+Darwin 13.0.0 x86_64
+
+$> date
+Fri Sep 12 13:50:24 CEST 2014
+
+$> gcc --version
+gcc (GCC) 4.9.0 20131215 (experimental)
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+$> clang --version
+Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+Target: x86_64-apple-darwin13.0.0
+Thread model: posix
+
+= ex00 =========================================================================
+$> /usr/bin/norminette  ft_generic.c | grep -E '^(Error|Warning)'
+
+$> gcc -W -Wall -Werror ft_generic.c test_ft_generic.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./sshnweqktxhuk2o7h6m9pwoj
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex01 =========================================================================
+$> /usr/bin/norminette  ft_takes_place.c | grep -E '^(Error|Warning)'
+
+$> gcc -W -Wall -Werror ft_takes_place.c test_ft_takes_place.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./ynzdsa9ad3ikahr7kbe9q1r4
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex02 =========================================================================
+$> diff -U 3 user_output ref_output | cat -e
+--- user_output	2014-09-12 13:50:33.000000000 +0200$
++++ ref_output	2014-09-12 13:50:33.000000000 +0200$
+@@ -0,0 +1,2 @@$
++424242-42424-42$
++424242-4242$
+
+Diff KO :(
+Grade: 0
+
+= ex03 =========================================================================
+$> diff -U 3 user_output ref_output | cat -e
+--- user_output	2014-09-12 13:50:33.000000000 +0200$
++++ ref_output	2014-09-12 13:50:33.000000000 +0200$
+@@ -1 +1 @@$
+-1410522632$
++1357080119$
+
+Diff KO :(
+Grade: 0
+
+= ex04 =========================================================================
+$> /usr/bin/norminette  ft_rot42.c | grep -E '^(Error|Warning)'
+
+$> gcc -W -Wall -Werror ft_rot42.c test_ft_rot42.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./qcz74bnay5i6pqjac8he11n2
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex05 =========================================================================
+$> /usr/bin/norminette  ft_bouton.c | grep -E '^(Error|Warning)'
+
+$> gcc -W -Wall -Werror ft_bouton.c test_ft_bouton.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./3n6i1nvw1ucmg4k3at5u9f1t
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex06 =========================================================================
+$> /usr/bin/norminette  ft_destroy.c | grep -E '^(Error|Warning)'
+
+$> gcc -W -Wall -Werror ft_destroy.c test_ft_destroy.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./cg4ykdzzayj7oaao16y8ynl1
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex07 =========================================================================
+$> /usr/bin/norminette  ft_collatz_conjecture.c | grep -E '^(Error|Warning)'
+
+$> gcc -W -Wall -Werror ft_collatz_conjecture.c test_ft_collatz_conjecture.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./sc0sj6mbs9sbon33x156a2ve
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex08 =========================================================================
+$> gcc -W -Wall -Werror ft_spy.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./kj5woq7lvih7wnu1i9gzfjfr "Je" "vais" "tuer" "Jack" "Powers"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./i2x2neh6wmavp62dfv1otq0y "Bonjour" "je" "voudrais" "une" "pizza" "4" "fromages"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./5yxcctp3vt30m3wb9ga1dfmv "L'attentat" "se" "deroulera" "bientot"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./955alpg0mbksxf7o61m8wge3 "un" "attentat" "se" "deroulera" "bientot"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./a2bgxs8ul6gprqmv4l653282 "L'attentat" "se" "deroulera" "bientot"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./glmcxzw43fd2tuvsgmt2oirk "un" "attentat" "se" "deroulera" "bientot"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./htn0591shmjhoni3dz366sq6 " le " " president " "doit" "mourir "
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./tidnf2amj6rlwifsmr1itgw2 " l'" "omnipresident" "doit" "manger "
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex09 =========================================================================
+$> diff -U 3 user_output ref_output | cat -e
+--- user_output	2014-09-12 13:50:50.000000000 +0200$
++++ ref_output	2014-09-12 13:50:50.000000000 +0200$
+@@ -1,2 +1 @@$
+ 10.13.4.17$
+-10.13.255.255$
+
+Diff KO :(
+Grade: 0
+
+= ex10 =========================================================================
+$> /usr/bin/norminette  ft_scrambler.c | grep -E '^(Error|Warning)'
+
+$> gcc -W -Wall -Werror ft_scrambler.c test_ft_scrambler.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./6hw3hxnkav3f44l62f3s5gqk
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex11 =========================================================================
+$> /usr/bin/norminette  ft_perso.h | grep -E '^(Error|Warning)'
+
+$> gcc -W -Wall -Werror ft_perso.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./zur9c98wt9a6o8ynr8i8g6we
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex12 =========================================================================
+$> /usr/bin/norminette  ft_door.h ft_door.c | grep -E '^(Error|Warning)'
+
+$> gcc -W -Wall -Werror ft_door.c test_ft_door.c -o user_exe 
+test_ft_door.c: In function 'main':
+test_ft_door.c:12:5: error: implicit declaration of function 'is_door_close' [-Werror=implicit-function-declaration]
+     if (is_door_close(&door))
+     ^
+cc1: all warnings being treated as errors
+
+Could not compile 'user_exe'
+Grade: 0
+
+= ex13 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex14 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex15 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex16 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex17 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex18 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex19 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex20 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex21 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex22 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex23 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade : 9 ==============================================================

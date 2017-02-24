@@ -1,0 +1,158 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e2r11p10.42.fr
+Darwin 13.0.0 x86_64
+
+$> date
+Wed Sep 10 14:37:15 CEST 2014
+
+$> gcc --version
+gcc (GCC) 4.9.0 20131215 (experimental)
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+$> clang --version
+Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+Target: x86_64-apple-darwin13.0.0
+Thread model: posix
+
+= ex00 =========================================================================
+$> /usr/bin/norminette  ft_create_elem.c ft_list.h | grep -E '^(Error|Warning)'
+
+$> gcc -W -Wall -Werror ft_create_elem.c test_ft_create_elem.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./36lhbryrooywvtgzf4kjw195
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ex01 =========================================================================
+$> /usr/bin/norminette  ft_list_push_back.c ft_list.h | grep -E '^(Error|Warning)'
+Warning: ft_list_push_back.c may not compile or is invalid for some reasons.
+
+Norme check FAILED
+Grade: 0
+
+= ex02 =========================================================================
+$> /usr/bin/norminette  ft_list_push_front.c | grep -E '^(Error|Warning)'
+Warning: ft_list_push_front.c may not compile or is invalid for some reasons.
+
+Norme check FAILED
+Grade: 0
+
+= ex03 =========================================================================
+$> /usr/bin/norminette  ft_list_size.c | grep -E '^(Error|Warning)'
+Error: 42 header not at top of the file
+Error (line 1): C++ comment
+Error (line 8, col 0): no newline after block
+
+Norme check FAILED
+Grade: 0
+
+= ex04 =========================================================================
+$> /usr/bin/norminette  ft_list_last.c | grep -E '^(Error|Warning)'
+Error: 42 header not at top of the file
+Error (line 6, col 0): no newline after block
+
+Norme check FAILED
+Grade: 0
+
+= ex05 =========================================================================
+$> /usr/bin/norminette  ft_list_push_params.c | grep -E '^(Error|Warning)'
+Warning: ft_list_push_params.c may not compile or is invalid for some reasons.
+
+Norme check FAILED
+Grade: 0
+
+= ex06 =========================================================================
+$> /usr/bin/norminette  ft_list_clear.c | grep -E '^(Error|Warning)'
+Error: 42 header not at top of the file
+Error (line 1): C++ comment
+Error (line 14, col 0): no newline after block
+
+Norme check FAILED
+Grade: 0
+
+= ex07 =========================================================================
+$> /usr/bin/norminette  ft_list_at.c | grep -E '^(Error|Warning)'
+Error: 42 header not at top of the file
+Error (line 2): multiple empty lines
+Error (line 3): multiple empty lines
+Error (line 4): multiple empty lines
+Error (line 5): multiple empty lines
+Error (line 6): multiple empty lines
+Error (line 7): multiple empty lines
+Error (line 8): multiple empty lines
+Error (line 9): multiple empty lines
+Error (line 10): multiple empty lines
+Error (line 11): multiple empty lines
+Error (line 12): multiple empty lines
+Error (line 13): multiple empty lines
+Error (line 14): multiple empty lines
+Error (line 15): multiple empty lines
+Error (line 16): multiple empty lines
+Error (line 24, col 0): no newline after block
+
+Norme check FAILED
+Grade: 0
+
+= ex08 =========================================================================
+$> /usr/bin/norminette  ft_list_reverse.c | grep -E '^(Error|Warning)'
+Error: 42 header not at top of the file
+Error (line 16, col 0): no newline after block
+
+Norme check FAILED
+Grade: 0
+
+= ex09 =========================================================================
+$> /usr/bin/norminette  ft_list_foreach.c | grep -E '^(Error|Warning)'
+Error: 42 header not at top of the file
+Error (line 6, col 0): no newline after block
+
+Norme check FAILED
+Grade: 0
+
+= ex10 =========================================================================
+$> /usr/bin/norminette  ft_list_foreach_if.c | grep -E '^(Error|Warning)'
+Error: 42 header not at top of the file
+Error (line 6, col 10): missing space around +
+Error (line 7): bad indentation
+Error (line 8): C++ comment
+Error (line 8): bad indentation
+Error (line 9, col 0): no newline after block
+
+Norme check FAILED
+Grade: 0
+
+= ex11 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex12 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex13 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex14 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex15 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex16 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex17 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade : 1 ==============================================================

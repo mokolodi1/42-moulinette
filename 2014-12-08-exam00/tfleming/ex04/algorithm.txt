@@ -1,0 +1,23 @@
+********************************************************************************
+                                                                                
+                                                          :::      ::::::::     
+     algorithm.txt                                      :+:      :+:    :+:     
+                                                      +:+ +:+         +:+       
+     By: exam <marvin@42.fr>                        +#+  +:+       +#+          
+                                                  +#+#+#+#+#+   +#+             
+     Created: 2014/12/04 12:48:40 by exam              #+#    #+#               
+     Updated: 2014/12/04 12:50:58 by exam             ###   ########.fr         
+                                                                                
+********************************************************************************
+
+Assuming all of the nodes are positive ints...
+
+*t_list[largest_node_value]		connections;
+
+1. parse list into connections, each connection being added to both the start and end point in the form of an int (pointing to an index in connections).
+2. Starting at each node in connections (that has something in it), do a recursively depth-first search of connections, keeping track of the maximum return value
+  - each call returns the number of connections possible through that node given the current state of connections
+  - each call removes (temporarily) the connection between those two nodes (in both directions, of course)
+
+I think it would be pretty interesting to see which students are good at using libft to actually do stuff. I could do this pretty easily if I had my libft.a file at the ready, but not really otherwise. What if you provided us with a libft.a file and told us you were going to compile with that? It's not really useful to be able to code linked lists again and again, but it is usefus to be able to do stuff with them. 
+

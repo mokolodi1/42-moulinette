@@ -1,0 +1,67 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e1r9p20.42.fr
+Darwin 13.0.0 x86_64
+
+$> date
+Thu Sep 11 19:01:16 CEST 2014
+
+$> gcc --version
+gcc (GCC) 4.9.0 20131215 (experimental)
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+$> clang --version
+Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+Target: x86_64-apple-darwin13.0.0
+Thread model: posix
+
+= ex00 =========================================================================
+$> /usr/bin/norminette  ft_display_file.c | grep -E '^(Error|Warning)'
+
+$> make clean && make && make fclean && make && make clean && ls -la ft_display_file
+/bin/rm -f ft_display_file.o
+gcc -Wall -Wextra -Werror -c ft_display_file.c
+gcc -Wall -Wextra -Werror -o ft_display_file ft_display_file.o
+/bin/rm -f ft_display_file.o
+/bin/rm -f ft_display_file
+gcc -Wall -Wextra -Werror -c ft_display_file.c
+gcc -Wall -Wextra -Werror -o ft_display_file ft_display_file.o
+/bin/rm -f ft_display_file.o
+-rwxr-xr-x  1 nobody  wheel  8720 Sep 11 19:01 ft_display_file
+
+= Test 1 ===================================================
+$> ./udv7o88ppa1r7bqgq6yqd0nc 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./1f9dlachsvwdz7cwwun4w05a hyper_file.txt
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./w0oz9p1ocetlcnbz0jdprd60 hyper_file.txt hyper_file.txt
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+Grade: 4
+
+= ex01 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex02 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex03 =========================================================================
+Nothing turned in
+Grade: 0
+
+= ex04 =========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade : 4 ==============================================================

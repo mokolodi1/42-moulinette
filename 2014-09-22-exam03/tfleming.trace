@@ -1,0 +1,529 @@
+= Host information =============================================================
+$> hostname; uname -msr
+e2r12p17.42.fr
+Darwin 13.0.0 x86_64
+
+$> date
+Mon Sep 22 11:46:40 CEST 2014
+
+$> gcc --version
+gcc (GCC) 4.9.0 20131215 (experimental)
+Copyright (C) 2013 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+$> clang --version
+Apple LLVM version 5.0 (clang-500.2.79) (based on LLVM 3.3svn)
+Target: x86_64-apple-darwin13.0.0
+Thread model: posix
+
+= auteur =======================================================================
+Good 'auteur' file
+Grade: 0
+
+= aff_z ========================================================================
+$> gcc -Wextra -Wall -Werror aff_z.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./8tg5scypoo60n65vay4emkim test1.prm
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./i1qtfo3ysk528pxky3k3cy7j test2.prm
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./wv6k7bkz71v23jn3rug9lcvz test3.prm
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./yy3smpmfr1d794ls7sws35fw test4.prm
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ft_print_numbers =============================================================
+$> gcc -Wextra -Wall -Werror ft_print_numbers.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./jiici654n9c8v4ticomzdzul
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ft_putstr ====================================================================
+$> gcc -Wextra -Wall -Werror ft_putstr.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./n9moenqpuys3gc9r5ud3ovpr
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ft_strlen ====================================================================
+$> gcc -Wextra -Wall -Werror ft_strlen.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./4arwleuqa9om5kxkbgm0ju03
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ft_swap ======================================================================
+$> gcc -Wextra -Wall -Werror ft_swap.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./dnpct6z0ibi2usfmzk9a758e
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= half_str =====================================================================
+$> gcc -Wextra -Wall -Werror half_str.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./wlfj7a0wtt5k1zrolw1p0w6y "ceofmrbhijeinw ddfeg etxedmfpess wfraiuktl-oiult tpyofuvrb ncjueifrseh fucne gbtejbuek gaeud emdixcdreof eornfddex"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./fre9r337a2wjukdkd90ygtos "a" "b"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./sa97x8juvqnagmknrfkd5wnm "..."
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./sj7l5i6jvvn28dobmgrg5lba ""
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./ed38t0i1hbffznfrtza1eol8 
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= aff_first_param ==============================================================
+$> gcc -Wextra -Wall -Werror aff_first_param.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./3xh0voqt0nsx4264nczoju5e riri fifi et loulou sont les castor junior
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./ic3tay2805oe10ff8rcn3lds "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor sed odio ac dapibus. Pellentesque congue bibendum mollis. Vivamus accumsan massa diam, id aliquet arcu porta et. Vivamus nec tortor eu leo suscipit dapibus. Pellentesque auctor tortor nunc, in lobortis erat gravida nec. Curabitur hendrerit, tortor et cursus sagittis, enim turpis accumsan odio, blandit pretium lacus eros eget mi. Maecenas et lacus ac arcu tempor lacinia nec et massa. Quisque congue odio nec egestas accumsan. Nullam fermentum id enim id accumsan."
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./bn3t27pwwqsux0levx7fci27 ""
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./u1y0iik3hokjao4skagr7pvw 
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ulstr ========================================================================
+$> gcc -Wextra -Wall -Werror ulstr.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./82zsmwgia4wh0p2wvyxosw36 "L'eSPrit nE peUt plUs pRogResSer s'Il staGne et sI peRsIsTent VAnIte et auto-justification."
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./3s9ztu55i2jci0pepg87na76 "S'enTOuRer dE sECreT eSt uN sIGnE De mAnQuE De coNNaiSSanCe.  "
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./b85nx3i2kach21yb2mt7b116 "3:21 Ba  tOut  moUn ki Ka di KE m'en Ka fe fot"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./9x3ypsas9ug507zafmbl5xz3 "Pour l'Imperium de l'Humanite"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./kcx694y6hidvt8aebzohxdpp "..."
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./016sbwgybrre654f6o2tksr6 ""
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ft_strcpy ====================================================================
+$> gcc -Wextra -Wall -Werror ft_strcpy.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./0ujj45wgexk5hwsqd1isyt4a
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= str_capitalizer ==============================================================
+$> gcc -Wextra -Wall -Werror str_capitalizer.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./zhu0x8nd3eddtquoszivupcy "hIeR soir ma GrAnd meRe a Achete 1 grille-pAiN Il eTaIT VERT ca l'A rEnduE malade ..."
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./qxmvhiuaajauzwa9tme42j0t "S'enTOuRer dE sECreT eSt uN sIGnE De mAnQuE De coNNaiSSanCe .  "
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./ggfwfh2ixd5k0szrpr4a7o7v "    3:21 Ba  tOut  moUn ki Ka di KE m'en Ka fe fot"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./6md764euuc99n6vk2be43am1 "Pour l'Imperium" "de l'Humanite" "et suRTOUT eQuestriA :) "
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./70oinvj8cnph0aqbivkfrqlv "..."
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./d3a55ds3wdzwpggmf5sikhxt ""
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= rotone =======================================================================
+$> gcc -Wextra -Wall -Werror rotone.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./dbo1ia4e7gso5e9zwi4ulqx6 "Les stagiaires du staff ne sentent pas toujours tres bon."
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./ibahsoowd0zms5cxfauewue4 "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempor sed odio ac dapibus. Pellentesque congue bibendum mollis. Vivamus accumsan massa diam, id aliquet arcu porta et. Vivamus nec tortor eu leo suscipit dapibus. Pellentesque auctor tortor nunc, in lobortis erat gravida nec. Curabitur hendrerit, tortor et cursus sagittis, enim turpis accumsan odio, blandit pretium lacus eros eget mi. Maecenas et lacus ac arcu tempor lacinia nec et massa. Quisque congue odio nec egestas accumsan. Nullam fermentum id enim id accumsan."
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./nbfh8mqpzhk73dlwkym4q868 ""
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ft_strcmp ====================================================================
+$> gcc -Wextra -Wall -Werror ft_strcmp.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./yl0uw5unkr5epskvkb92ns8i
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= wdmatch ======================================================================
+$> gcc -Wextra -Wall -Werror wdmatch.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./esnxry8lzmudgf1cabxfbpuo "faya" "fgvvfdxcacpolhyghbreda"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./2aehci1x9fxdpnep702z7kw2 "faya" "fgvvfdxcacpolhyghbred"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./nf9hnfljlokf0ep72iuxqb9z "quarante deux" "qfqfsudf arzgsayns tsregfdgs sjytdekuoixq "
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./itg71ke4yd4gisho6t4s7wq2 "error" "rrerrrfiiljdfxjyuifrrvcoojh"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./s0az96mmpl5iij079d9n0i9z "... un dernier pour la route" "... UN DERNIER POUR LA ROUTE"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./5w8wq69ijkb4hn2dy9ao9ho3 "oui" "qowueir"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./kkzuivu659v5aytuso7y2itb ""
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ft_strrev ====================================================================
+$> gcc -Wextra -Wall -Werror ft_strrev.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./k8imdm7t58lyum3tmvug2vax
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= union ========================================================================
+$> gcc -Wextra -Wall -Werror union.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./jbsj6x8m64m0dk1hrrxjm2cn "bqwuiobqiwrvi-1,-1.-1-38901gbi" "u3bkjnqoq8dbiu1p1po,-8491"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./p9jivhnhda6h1z4qa63v2n1x "" "3u3bkjnqosbhs9q8dbiu1p1po,-8491"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./zie5mdwh1gomz07mkvdwlolt "" ""
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./tzrk1i0q605l9a3rgthah8hk "bqkwjbwqiuqw" ""
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ft_strdup ====================================================================
+$> gcc -Wextra -Wall -Werror ft_strdup.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./bsltq9nhwogrqoyp4yyddskj
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= ft_range =====================================================================
+$> gcc -Wextra -Wall -Werror ft_range.c main.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./8u6vls0rfx4h0r94lip8sdv4
+Command './8u6vls0rfx4h0r94lip8sdv4' got killed by a Segmentation fault (Signal -11)
+Grade: 0
+
+= inter ========================================================================
+$> gcc -Wextra -Wall -Werror inter.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./zeh3j0il9ai8cga2sdiq3wkn "padinton" "paqefwtdjetyiytjneytjoeyjnejeyj"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./pkqahqa3a8yxbd1fmc5xweoq "ddf6vewg64f" "gtwthgdwthdwfteewhrtag6h4ffdhsd"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./fpv4kzsw3j12zib15b5v9l3s "rien" "cette phrase ne cache rien"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./syk7b79rhbj39in717mej5vt "" ""
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./roam28gzfa399nwhcs95la62 "asdfqwerzxxcv123454" "1234gfds6543fghj"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= epur_str =====================================================================
+$> gcc -Wextra -Wall -Werror epur_str.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./cgtsxbdzq3of5an66j8qf9uf 
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./47h2c649elj7o6jmgwgpe4xb " fa f ds f ff" " few"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./vx8ra5xsevkehgc1vfrzvwyj " this is   f-u-b-a-r      "
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./qo244rx5b7ymbfa80kvru106 "mon poney s'apelle poussiere d'etoile"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./qw1rzmv205irkjv86uqisu03 ""
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./9935zyedlsj5akzfuwivsmxn "quelle est la difference entre un bebe mort et un sandwich au poulet          ? "
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./lxuah82749rhi8gqzq90hjro "..."
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= rostring =====================================================================
+$> gcc -Wextra -Wall -Werror rostring.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./hxcydabq6yf066m7bwgzb2a1 "THERE'S BUTTER ON MY FACE"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./ldwgu0wbpx2776si1ydw4392 "vingt-huit mille spatules au gravillon"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./xmq761vf52msy4ywqn26u7at "..."
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./94ah4ko1c2dge71ekhi6gexh ""
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= tab_mult =====================================================================
+$> gcc -Wextra -Wall -Werror tab_mult.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./7yeh1zx16bre9ajwa5ppsenh 1
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= str_maxlenoc =================================================================
+$> gcc -Wextra -Wall -Werror str_maxlenoc.c -o user_exe 
+str_maxlenoc.c: In function 'test_in_strings':
+str_maxlenoc.c:33:27: error: unused parameter 'ac' [-Werror=unused-parameter]
+ int   test_in_strings(int ac, char **av)
+                           ^
+str_maxlenoc.c:33:38: error: unused parameter 'av' [-Werror=unused-parameter]
+ int   test_in_strings(int ac, char **av)
+                                      ^
+str_maxlenoc.c: In function 'main':
+str_maxlenoc.c:47:2: error: implicit declaration of function 'strlen' [-Werror=implicit-function-declaration]
+  while (argv[1][i] && i < strlen(argv[1]))
+  ^
+str_maxlenoc.c:47:27: error: incompatible implicit declaration of built-in function 'strlen' [-Werror]
+  while (argv[1][i] && i < strlen(argv[1]))
+                           ^
+str_maxlenoc.c:47:25: error: comparison between signed and unsigned integer expressions [-Werror=sign-compare]
+  while (argv[1][i] && i < strlen(argv[1]))
+                         ^
+str_maxlenoc.c:51:2: error: expected expression before '}' token
+  }
+  ^
+str_maxlenoc.c:51:2: error: expected ')' before '}' token
+str_maxlenoc.c:51:2: error: expected expression before '}' token
+str_maxlenoc.c:55:3: error: passing argument 1 of 'ft_putchar' makes integer from pointer without a cast [-Werror]
+   ft_putchar(start + i);
+   ^
+str_maxlenoc.c:16:7: note: expected 'char' but argument is of type 'char *'
+ void  ft_putchar(char c)
+       ^
+str_maxlenoc.c:43:7: error: variable 'try_len' set but not used [-Werror=unused-but-set-variable]
+  int  try_len;
+       ^
+str_maxlenoc.c:38:16: error: unused parameter 'argc' [-Werror=unused-parameter]
+ int   main(int argc, char **argv)
+                ^
+str_maxlenoc.c: In function 'test_in_strings':
+str_maxlenoc.c:36:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1: all warnings being treated as errors
+
+Could not compile 'user_exe'
+Grade: 0
+
+= paramsum =====================================================================
+Nothing turned in
+Grade: 0
+
+= ft_split =====================================================================
+Nothing turned in
+Grade: 0
+
+= ft_list_size =================================================================
+Nothing turned in
+Grade: 0
+
+= ft_list_foreach ==============================================================
+Nothing turned in
+Grade: 0
+
+= count_island =================================================================
+Nothing turned in
+Grade: 0
+
+= time_lord ====================================================================
+Nothing turned in
+Grade: 0
+
+= death_race ===================================================================
+Nothing turned in
+Grade: 0
+
+= hl3 ==========================================================================
+Nothing turned in
+Grade: 0
+
+= Final grade : 20 =============================================================
